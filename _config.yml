@@ -23,7 +23,7 @@ github_username:  RealNitro
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 gems:
   - jekyll-feed
 exclude:
