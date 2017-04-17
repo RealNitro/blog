@@ -1,0 +1,12 @@
+---
+author: RealNitro
+comments: true
+date: 2007-10-30 21:12:10+00:00
+layout: post
+link: http://blog.realnitro.be/2007/10/30/latex-les-2007/
+slug: latex-les-2007
+title: LaTeX les 2007
+wordpress_id: 37
+---
+
+Wie [LaTeX](http://latex.ugent.be/) wil leren kennen: de jaarlijkse LaTeX-les van de VTK-Werkgroep Vrije Software gaat door volgende week dinsdag 6 november om 19u30 in auditorium A van het Jozef Plateau gebouw van de Faculteit Ingenieurswetenschappen. Meer info, en de mogelijkheid om een cursus en/of samenvatting te bestellen vind je [hier](http://www.vtk.ugent.be:81/wvs/activiteiten/).

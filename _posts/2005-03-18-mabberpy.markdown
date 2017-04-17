@@ -1,0 +1,77 @@
+---
+author: RealNitro
+comments: true
+date: 2005-03-18 10:48:44+00:00
+layout: post
+link: http://blog.realnitro.be/2005/03/18/mabber.py/
+slug: mabber.py
+title: Mabber.py
+wordpress_id: 18
+---
+
+Some time ago, I wrote a small python script that notified me with a jabber message whenever a new e-mail has arrived on my UGent-account. I already was using a similar script, but I wanted to create one myself. And now it's time to publish it. :-) 
+
+[b]What does it do[/b]: it notifies you with a [url=http://www.jabber.org]jabber[/url] message when a new e-mail has arived
+[b]What do I need[/b]: a [url=http://www.jabber.org/network/]jabber account[/url] for yourself and for the bot, access  to [url=http://www.procmail.org/]procmail[/url] filters, [url=http://www.python.org/]python[/url] support on the [url=http://www.procmail.org/]procmail[/url] server, a [url=http://www.jabber.org/software/clients.shtml]jabber client[/url] and my scipt.
+[b]How[/b]: first, a [url=http://www.procmail.org/]procmail[/url] filter forwards the e-mail headers to mabber.py. Mabber analyses the headers, extracts the needed info and formats it. Then, using [url=http://xmpppy.sourceforge.net/]xmpppy[/url] and a dummy jabber-account, a the little bot pops online and sends you a 'headline' message.
+[b]Where do I get it[/b]: download mabber.py [url=http://www.realnitro.be/files/mabber/mabber.tar.gz]here[/url]
+[b]Note[/b]: similar scripts/progs exist in [url=http://www.openp2p.com/pub/a/p2p/2001/03/09/adams_1.html]Perl[/url] and [url=http://users.pandora.be/cobnet/ict/Jabber/jabber_presentatie.html]Java[/url].
+
+[b]How to set it up on eduserv[/b]:
+1) Download the [url=http://www.realnitro.be/files/mabber/mabber.tar.gz]mabber.tar.gz[/url] file to your computer. Use an SCP client (like [url=http://winscp.sourceforge.net/eng/download.php]WinSCP[/url] on windows) to log in on eduserv with your own login and password. Make sure the right side is selected and upload the mabber.tar.gz file to your home-directory.
+
+2) Using an SSH client (like [url=http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html]Putty[/url] for windows), log on to eduserv again. First, the mabber.tar.gz file has to be extracted. To do this, enter: 
+
+<blockquote>`tar xvpfz mabber.tar.gz`</blockquote>
+
+The console should output a list of extracted files. Now enter the command
+
+<blockquote>`cd mabber`</blockquote>
+
+to enter the created mabber directory. Execute the script for the first time with
+
+<blockquote>`chmod 700 mabber.py
+./mabber.py`</blockquote>
+
+It will tell you there was no configfile found, and a dummy-one was created. To adjust this dummy file, go back to the previous directory and open the dummy file :
+
+<blockquote>`cd ..
+pico -w .mabber`</blockquote>
+
+
+Change the values for 'jid', 'password' and 'tojid' to the JID of your bot, its password and your own JID respectively. Remove the '#' in front of 'jid', 'password' and 'tojid', save with 'CTRL+O' and exit with 'CTRL+X'.
+
+[b]Note[/b]:In order to keep your password hidden from other users, mabber.py creates your file with '600' permissions (only you are able to read it and adjust it). If you descide to create the file yourself, do not forget to execute
+
+<blockquote>`chmod 600 .mabber`</blockquote>
+
+
+
+3) Now its time to add a procmail filter. More info [url=http://allserv.rug.ac.be/helpdesk/software/procmail.html]here[/url]. First execute (while still in the folder of .mabber -- your home folder)
+
+<blockquote>`pico -w .forward`</blockquote>
+
+In this file, add [b]one line[/b]:
+
+<blockquote>`"|IFS=' '&&exec /usr/local/bin/procmail -f-||exit 75 #USERNAME"`</blockquote>
+
+in which you change USERNAME to your own username. Save with 'CTRL+O', exit with 'CTRL+X'. Now its time to define the filter. Again we use pico to create/adjust a text file:
+
+<blockquote>`pico -w .procmailrc`</blockquote>
+
+and add:
+
+<blockquote>`PATH=$HOME/bin:usr/bin:/usr/local/bin
+MAILDIR=$HOME/mail
+DEFAULT=/var/mail/USERNAME
+LOGFILE=$MAILDIR/from
+LOCKFILE=$HOME/.lockmail
+
+#mabber
+:0 hc
+| $HOME/mabber/mabber.py
+`</blockquote>
+
+Again, change USERNAME into your own username, save with 'CTRL+O' and exit with 'CTRL+X'.
+
+That's it! Try sending yourself an e-mail. A few seconds later (could be half a minute) you should receive a jabber-message containing the sender, the subject and the date. Be sure to check if you really received the mail. If not, doublecheck your .procmailrc file! If you have any questions about the installation or use of this file, feel free to comment. I'll answer asap.

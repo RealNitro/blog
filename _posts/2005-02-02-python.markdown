@@ -1,0 +1,18 @@
+---
+author: RealNitro
+comments: true
+date: 2005-02-02 14:16:14+00:00
+layout: post
+link: http://blog.realnitro.be/2005/02/02/python/
+slug: python
+title: Python
+wordpress_id: 9
+---
+
+Whoohoo, no more Statistics to study for at least half a year.:-D Maybe even forever, because I feel like I have a nice chance to get a B. We'll see. The next exam is Mechanics, next wednesday. It's not easy, but at least it's nog as boring as Statistics.:-p
+
+After I read [url=http://blog.eikke.com/index.php/ikke/2005/01/30/python_for_dummies_and_update]Ikke's post[/url] about using [url=http://www.pygtk.org/]pyGTK[/url], [url=http://glade.gnome.org/]Glade[/url] and [url=http://www.python.org/]Python[/url] to create small GUI programs, I decided to learn some [url=http://www.python.org/]Python[/url]. I already read a [url=http://www.hetland.org/python/instant-hacking.php]small crash course[/url], and I started reading the [url=http://docs.python.org/tut/tut.html]official tuturial[/url]. Too bad I can't afford to spend a day or so to read and practice, so my progress in the tut is rather slow, but I'll get there.:-) Maybe I'll read [url=http://www.diveintopython.org/]this tutorial[/url] aswell. Hopefully all that will enable me to understand [url=http://primates.ximian.com/~sandino/python-glade/#preamble]this final tutorial[/url]B-)
+
+So far I really like [url=http://www.python.org/]Python[/url], I even solved some Statistic exercices with it yesterday (couldn't resist :oops: B-) :-p )
+
+That's it for this time. bb!
