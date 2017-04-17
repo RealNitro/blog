@@ -13,17 +13,11 @@ Being a big [git](http://git-scm.com/) fan, I was disappointed when I was forced
 
 One thing I liked about git was being able to update my commits to include the name of a reviewer in the commit message, or to include the fixes that resulted from the review in the commit. Read on to see how you can use the mq extension for this.
 
-<!-- more -->
-
 Let's enable the mq extension first. I am assuming you have a recent version of mercurial installed on your machine. Open ~/.hgrc and add the extension by adding this to the file:
 
-
-
-<blockquote>`[extensions]
-hgext.mq = 
-`</blockquote>
-
-
+> `[extensions]
+> hgext.mq =
+> `
 
 If there already is an [extensions] section in your ~/.hgrc file, just add the "hgext.mq = " line at the bottom of that section.
 
@@ -35,90 +29,78 @@ We will use the mq extension to allow us to fill in the reviewers in the commit 
 
 First we enable mq in our repository: `hg qinit` Then we create a 'patch' (a patch is an mq commit) for the license commit: `hg qnew license` And after that we add the license to the hello_world.py file. The file now looks like this:
 
+> `
+> >
+> > # This program is free software: you can redistribute it and/or modify
+> > # it under the terms of the GNU General Public License as published by
+> > # the Free Software Foundation, either version 3 of the License, or
+> > # (at your option) any later version.
+> >
+> > # This program is distributed in the hope that it will be useful,
+> > # but WITHOUT ANY WARRANTY; without even the implied warranty of
+> > # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+> > # GNU General Public License for more details.
+> >
+> > # You should have received a copy of the GNU General Public License
+> > # along with this program. If not, see http://www.gnu.org/licenses/.
+> >
+> > print 'hello world'
+> >
+> > `
 
-
-<blockquote>`
->     
->     # This program is free software: you can redistribute it and/or modify
->     # it under the terms of the GNU General Public License as published by
->     # the Free Software Foundation, either version 3 of the License, or
->     # (at your option) any later version.
->     
->     # This program is distributed in the hope that it will be useful,
->     # but WITHOUT ANY WARRANTY; without even the implied warranty of
->     # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
->     # GNU General Public License for more details.
->     
->     # You should have received a copy of the GNU General Public License
->     # along with this program.  If not, see http://www.gnu.org/licenses/.
->     
->     print 'hello world'
-> 
-> `</blockquote>
-
-
-
-We are happy with our work, and decide this commit is done. We now update the license patch to include our latest changes: `hg qrefresh --edit` The qrefresh command 'refreshes' the active patch to the current state of the repository. Because we added the `--edit` argument, we can also fill in our commit message. Let's choose "Added GPLv3 license".
+We are happy with our work, and decide this commit is done. We now update the license patch to include our latest changes: `hg qrefresh –edit` The qrefresh command 'refreshes' the active patch to the current state of the repository. Because we added the `--edit` argument, we can also fill in our commit message. Let's choose "Added GPLv3 license".
 
 This 'patch' is done, so we create a new one with `hg qnew method` as we will be moving our Hello World code into a method. We update our hello_world.py file with the method:
 
-
-
-<blockquote>`
->     
->     # This program is free software: you can redistribute it and/or modify
->     # it under the terms of the GNU General Public License as published by
->     # the Free Software Foundation, either version 3 of the License, or
->     # (at your option) any later version.
->     
->     # This program is distributed in the hope that it will be useful,
->     # but WITHOUT ANY WARRANTY; without even the implied warranty of
->     # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
->     # GNU General Public License for more details.
->     
->     # You should have received a copy of the GNU General Public License
->     # along with this program.  If not, see http://www.gnu.org/licenses/.
->     
->     def hello_world():
->         print 'hello world'
->     
->     hello_world()
-> 
-> `</blockquote>
-
-
+> `
+> >
+> > # This program is free software: you can redistribute it and/or modify
+> > # it under the terms of the GNU General Public License as published by
+> > # the Free Software Foundation, either version 3 of the License, or
+> > # (at your option) any later version.
+> >
+> > # This program is distributed in the hope that it will be useful,
+> > # but WITHOUT ANY WARRANTY; without even the implied warranty of
+> > # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+> > # GNU General Public License for more details.
+> >
+> > # You should have received a copy of the GNU General Public License
+> > # along with this program. If not, see http://www.gnu.org/licenses/.
+> >
+> > def hello_world():
+> > print 'hello world'
+> >
+> > hello_world()
+> >
+> > `
 
 Again we update our 'patch' with `hg qrefresh --edit` and we choose "Hello World is now a method" as our commit message.
 
 Next up is the module 'patch'. But let's suppose we forget to create our new patch and just start writing code. Our hello_world.py file now contains:
 
-
-
-<blockquote>`
->     
->     # This program is free software: you can redistribute it and/or modify
->     # it under the terms of the GNU General Public License as published by
->     # the Free Software Foundation, either version 3 of the License, or
->     # (at your option) any later version.
->     
->     # This program is distributed in the hope that it will be useful,
->     # but WITHOUT ANY WARRANTY; without even the implied warranty of
->     # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
->     # GNU General Public License for more details.
->     
->     # You should have received a copy of the GNU General Public License
->     # along with this program.  If not, see http://www.gnu.org/licenses/.
->     
->     def hello_world():
->         print 'hello world'
->     
->     if __name__ == "__main__":
->         hello_world()
->     
-> 
-> `</blockquote>
-
-
+> `
+> >
+> > # This program is free software: you can redistribute it and/or modify
+> > # it under the terms of the GNU General Public License as published by
+> > # the Free Software Foundation, either version 3 of the License, or
+> > # (at your option) any later version.
+> >
+> > # This program is distributed in the hope that it will be useful,
+> > # but WITHOUT ANY WARRANTY; without even the implied warranty of
+> > # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+> > # GNU General Public License for more details.
+> >
+> > # You should have received a copy of the GNU General Public License
+> > # along with this program. If not, see http://www.gnu.org/licenses/.
+> >
+> > def hello_world():
+> > print 'hello world'
+> >
+> > if __name__ == "__main__":
+> > hello_world()
+> >
+> >
+> > `
 
 We now notice that we did not create a new patch. No worries, we can create a new patch containing all uncommitted changes with `hg qnew -f --edit module` The `-f` flag imports all uncommitted changes into the patch. The `--edit` flag does the same thing it does for qrefresh: it allows us to edit the commit message.
 
@@ -126,37 +108,25 @@ Now we wait for our patches to be reviewed. We can use `hg serve` to serve our l
 
 We're in luck because or license commit is actually an mq patch, which means we can edit it! Right now we have 3 patches applied. We can check the effect with `hg qapplied`:
 
-
-
-<blockquote>`% hg qapplied
-license
-method
-module
-`</blockquote>
-
-
+> `% hg qapplied
+> license
+> method
+> module
+> `
 
 To return to the license patch, we need to remove the method and license patches. We can remove all patches until the license patch is at the top of the stack with `hg qpop license`. We can check this with `hg qapplied`:
 
-
-
-<blockquote>`% hg qapplied
-license
-`</blockquote>
-
-
+> `% hg qapplied
+> license
+> `
 
 Don't worry, we did not lose the method and module patches. They are still saved somewhere. We can list all patches, even if they are not applied with `hg qseries`:
 
-
-
-<blockquote>`% hg qseries
-license
-method
-module
-`</blockquote>
-
-
+> `% hg qseries
+> license
+> method
+> module
+> `
 
 Let's edit our license patch. We download the license with `wget "http://www.gnu.org/licenses/gpl.txt" -o COPYING` and add it to our repository: `hg add COPYING` Then we refresh our license patch: `hg qrefresh --edit` We can also include the name of our reviewer in our commit message now.
 

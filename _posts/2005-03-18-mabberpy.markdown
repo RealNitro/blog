@@ -9,68 +9,65 @@ title: Mabber.py
 wordpress_id: 18
 ---
 
-Some time ago, I wrote a small python script that notified me with a jabber message whenever a new e-mail has arrived on my UGent-account. I already was using a similar script, but I wanted to create one myself. And now it's time to publish it. :-) 
+Some time ago, I wrote a small python script that notified me with a jabber message whenever a new e-mail has arrived on my UGent-account. I already was using a similar script, but I wanted to create one myself. And now it's time to publish it. :-)
 
-[b]What does it do[/b]: it notifies you with a [url=http://www.jabber.org]jabber[/url] message when a new e-mail has arived
-[b]What do I need[/b]: a [url=http://www.jabber.org/network/]jabber account[/url] for yourself and for the bot, access  to [url=http://www.procmail.org/]procmail[/url] filters, [url=http://www.python.org/]python[/url] support on the [url=http://www.procmail.org/]procmail[/url] server, a [url=http://www.jabber.org/software/clients.shtml]jabber client[/url] and my scipt.
-[b]How[/b]: first, a [url=http://www.procmail.org/]procmail[/url] filter forwards the e-mail headers to mabber.py. Mabber analyses the headers, extracts the needed info and formats it. Then, using [url=http://xmpppy.sourceforge.net/]xmpppy[/url] and a dummy jabber-account, a the little bot pops online and sends you a 'headline' message.
-[b]Where do I get it[/b]: download mabber.py [url=http://www.realnitro.be/files/mabber/mabber.tar.gz]here[/url]
-[b]Note[/b]: similar scripts/progs exist in [url=http://www.openp2p.com/pub/a/p2p/2001/03/09/adams_1.html]Perl[/url] and [url=http://users.pandora.be/cobnet/ict/Jabber/jabber_presentatie.html]Java[/url].
+**What does it do**: it notifies you with a [jabber](http://www.jabber.org) message when a new e-mail has arived
+**What do I need**: a [jabber account](http://www.jabber.org/network/) for yourself and for the bot, access to [procmail](http://www.procmail.org/) filters, [python](http://www.python.org/) support on the [procmail](http://www.procmail.org/) server, a [jabber client](http://www.jabber.org/software/clients.shtml) and my scipt.
+**How**: first, a [procmail](http://www.procmail.org/) filter forwards the e-mail headers to mabber.py. Mabber analyses the headers, extracts the needed info and formats it. Then, using [xmpppy](http://xmpppy.sourceforge.net/) and a dummy jabber-account, a the little bot pops online and sends you a 'headline' message.
+**Where do I get it**: download mabber.py [here](http://www.realnitro.be/files/mabber/mabber.tar.gz)
+**Note**: similar scripts/progs exist in [Perl](http://www.openp2p.com/pub/a/p2p/2001/03/09/adams_1.html) and [Java](http://users.pandora.be/cobnet/ict/Jabber/jabber_presentatie.html).
 
-[b]How to set it up on eduserv[/b]:
-1) Download the [url=http://www.realnitro.be/files/mabber/mabber.tar.gz]mabber.tar.gz[/url] file to your computer. Use an SCP client (like [url=http://winscp.sourceforge.net/eng/download.php]WinSCP[/url] on windows) to log in on eduserv with your own login and password. Make sure the right side is selected and upload the mabber.tar.gz file to your home-directory.
+**How to set it up on eduserv**:
+1) Download the [mabber.tar.gz](http://www.realnitro.be/files/mabber/mabber.tar.gz) file to your computer. Use an SCP client (like [WinSCP](http://winscp.sourceforge.net/eng/download.php) on windows) to log in on eduserv with your own login and password. Make sure the right side is selected and upload the mabber.tar.gz file to your home-directory.
 
-2) Using an SSH client (like [url=http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html]Putty[/url] for windows), log on to eduserv again. First, the mabber.tar.gz file has to be extracted. To do this, enter: 
+2) Using an SSH client (like [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) for windows), log on to eduserv again. First, the mabber.tar.gz file has to be extracted. To do this, enter:
 
-<blockquote>`tar xvpfz mabber.tar.gz`</blockquote>
+> `tar xvpfz mabber.tar.gz`
 
 The console should output a list of extracted files. Now enter the command
 
-<blockquote>`cd mabber`</blockquote>
+> `cd mabber`
 
 to enter the created mabber directory. Execute the script for the first time with
 
-<blockquote>`chmod 700 mabber.py
-./mabber.py`</blockquote>
+> `chmod 700 mabber.py
+> ./mabber.py`
 
 It will tell you there was no configfile found, and a dummy-one was created. To adjust this dummy file, go back to the previous directory and open the dummy file :
 
-<blockquote>`cd ..
-pico -w .mabber`</blockquote>
-
+> `cd ..
+> pico -w .mabber`
 
 Change the values for 'jid', 'password' and 'tojid' to the JID of your bot, its password and your own JID respectively. Remove the '#' in front of 'jid', 'password' and 'tojid', save with 'CTRL+O' and exit with 'CTRL+X'.
 
-[b]Note[/b]:In order to keep your password hidden from other users, mabber.py creates your file with '600' permissions (only you are able to read it and adjust it). If you descide to create the file yourself, do not forget to execute
+**Note**:In order to keep your password hidden from other users, mabber.py creates your file with '600' permissions (only you are able to read it and adjust it). If you descide to create the file yourself, do not forget to execute
 
-<blockquote>`chmod 600 .mabber`</blockquote>
+> `chmod 600 .mabber`
 
+3) Now its time to add a procmail filter. More info [here](http://allserv.rug.ac.be/helpdesk/software/procmail.html). First execute (while still in the folder of .mabber – your home folder)
 
+> `pico -w .forward`
 
-3) Now its time to add a procmail filter. More info [url=http://allserv.rug.ac.be/helpdesk/software/procmail.html]here[/url]. First execute (while still in the folder of .mabber -- your home folder)
+In this file, add **one line**:
 
-<blockquote>`pico -w .forward`</blockquote>
-
-In this file, add [b]one line[/b]:
-
-<blockquote>`"|IFS=' '&&exec /usr/local/bin/procmail -f-||exit 75 #USERNAME"`</blockquote>
+> `"|IFS=' '&&exec /usr/local/bin/procmail -f-||exit 75 #USERNAME"`
 
 in which you change USERNAME to your own username. Save with 'CTRL+O', exit with 'CTRL+X'. Now its time to define the filter. Again we use pico to create/adjust a text file:
 
-<blockquote>`pico -w .procmailrc`</blockquote>
+> `pico -w .procmailrc`
 
 and add:
 
-<blockquote>`PATH=$HOME/bin:usr/bin:/usr/local/bin
-MAILDIR=$HOME/mail
-DEFAULT=/var/mail/USERNAME
-LOGFILE=$MAILDIR/from
-LOCKFILE=$HOME/.lockmail
-
-#mabber
-:0 hc
-| $HOME/mabber/mabber.py
-`</blockquote>
+> `PATH=$HOME/bin:usr/bin:/usr/local/bin
+> MAILDIR=$HOME/mail
+> DEFAULT=/var/mail/USERNAME
+> LOGFILE=$MAILDIR/from
+> LOCKFILE=$HOME/.lockmail
+> 
+> #mabber
+> :0 hc
+> | $HOME/mabber/mabber.py
+> `
 
 Again, change USERNAME into your own username, save with 'CTRL+O' and exit with 'CTRL+X'.
 

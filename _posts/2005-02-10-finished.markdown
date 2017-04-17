@@ -11,6 +11,6 @@ wordpress_id: 10
 
 Good bye exams! Mechanica was all right, but it should have been better (did some calculations that took me 3/4 of an hour, and I didn't need them :'( ).
 
-Atm, I'm updating my system, and hopefully I will get the hardware acceleration working, so I can check the new test release of [url=http://www.truecombat.com/intro.php]TC:E[/url] out. My expectations are high, I hope this release is not as much of a disappointment as the other one was.
+Atm, I'm updating my system, and hopefully I will get the hardware acceleration working, so I can check the new test release of [TC:E](http://www.truecombat.com/intro.php) out. My expectations are high, I hope this release is not as much of a disappointment as the other one was.
 
 I haven't been posting a lot in this blog for the last few weeks, but that should improve in the coming days/weeks. ;-)

@@ -12,51 +12,30 @@ wordpress_id: 30
 A quick review of the talks I attended last weekend at [FOSDEM](http://www.fosdem.org/):
 **Saturday:**
 
+* OLPC: Great, innovative machine. The talk was nice, but I think it could have been better, maybe with another speaker…
 
+* Liberating Java: Great talk. The only ciritique I can think of is that is was quite commercial. The speaker(s) obviously were trying to sell Java (and Sun). Not that I blame them. I enjoyed the talk.
 
-	
-  * OLPC: Great, innovative machine. The talk was nice, but I think it could have been better, maybe with another speaker...
+* Jabber 101: The Jabber room was packed. The devrooms at FOSDEM really are starting to get too small. Great speaker. Didn't learn a lot of new stuff.
 
-	
-  * Liberating Java: Great talk. The only ciritique I can think of is that is was quite commercial. The speaker(s) obviously were trying to sell Java (and Sun). Not that I blame them. I enjoyed the talk.
+* What's new in GStreamer: Good talk. Chatted a bit with Ikke, made him envious of not being there. :)
 
-	
-  * Jabber 101: The Jabber room was packed. The devrooms at FOSDEM really are starting to get too small. Great speaker. Didn't learn a lot of new stuff.
+* GEGL: Great speaker. Interesting talk, glad I know what GEGL is now.
 
-	
-  * What's new in GStreamer: Good talk. Chatted a bit with Ikke, made him envious of not being there. :) 
-
-	
-  * GEGL: Great speaker. Interesting talk, glad I know what GEGL is now.
-
-	
-  * Django: Didn't learn a lot, but it was interesting to hear somebody using Django professionally give his opinion about it. The devroom was packed, again.
-
-
+* Django: Didn't learn a lot, but it was interesting to hear somebody using Django professionally give his opinion about it. The devroom was packed, again.
 
 **Sunday:**
 
+* Plone 3.0: Nice talk.
 
+* Drupal: Nice talk. The list of Drupal sites is quite impressive. I might give it a try some day, even though I'm not a PHP fan. (I prefer Python, and Django.)
 
-	
-  * Plone 3.0: Nice talk.
+* Elisa: Interesting project, I'm glad I got introduced to its structure, interesting questions and answers after the talk. Unfortunately the speaker wasn't very good. The Python devroom was packed. Again.
 
-	
-  * Drupal: Nice talk. The list of Drupal sites is quite impressive. I might give it a try some day, even though I'm not a PHP fan. (I prefer Python, and Django.)
+* OpenOffice - OpenXML: I had expected this talk to become a discussion about ODF and OpenXML, but it didn't, so I'm a bit disappointed about it.
 
-	
-  * Elisa: Interesting project, I'm glad I got introduced to its structure, interesting questions and answers after the talk. Unfortunately the speaker wasn't very good. The Python devroom was packed. Again.
+* Turbocharging Linux with Mono: Great talk, I really enjoyed myself, too bad I missed the beginning. If [Miguel de Icaza](http://tirania.org/blog/) is right, 50% of all .NET apps will run on Mono within the next 4 months. Amazing.
 
-	
-  * OpenOffice - OpenXML: I had expected this talk to become a discussion about ODF and OpenXML, but it didn't, so I'm a bit disappointed about it.
+* Secure Communications with Jabber: Once again, great speaker. I'm happy the Jabber people are thinking about protecting us from spam, eavesdropping, phishing, etc.
 
-	
-  * Turbocharging Linux with Mono: Great talk, I really enjoyed myself, too bad I missed the beginning. If [Miguel de Icaza](http://tirania.org/blog/) is right, 50% of all .NET apps will run on Mono within the next 4 months. Amazing.
-
-	
-  * Secure Communications with Jabber: Once again, great speaker. I'm happy the Jabber people are thinking about protecting us from spam, eavesdropping, phishing, etc.
-
-	
-  * Profiling Desktop Applications: the best talk of FOSDEM 2007 for me. Interesting and funny. I wish all our classes were like this. :)
-
-
+* Profiling Desktop Applications: the best talk of FOSDEM 2007 for me. Interesting and funny. I wish all our classes were like this. :)

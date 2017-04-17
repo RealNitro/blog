@@ -12,10 +12,6 @@ wordpress_id: 60
 
 I came across some confusing errors when combining patch_socket, patch_ssl of [Gevent](http://www.gevent.org/) 0.13.0 (the one in Ubuntu 11.10) and [Mercurial](http://mercurial.selenic.com/) today. If you get this error:
 
+> `__init__() got an unexpected keyword argument 'ciphers'`
 
-
-<blockquote>`__init__() got an unexpected keyword argument 'ciphers'`</blockquote>
-
-
-
-update your Gevent version to at least 0.13.1. That should resolve your issue. Good luck!
+update your Gevent version to at least 0.13.1\. That should resolve your issue. Good luck!

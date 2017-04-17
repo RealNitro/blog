@@ -9,4 +9,4 @@ title: (B)eid on Ubuntu 12.04
 wordpress_id: 59
 ---
 
-[This post](http://forum.ubuntu-nl.org/tips-trucs/opgelost-hoe-belgische-on-lline-belastingaangifte-met-ubuntu-12-04-lts-64/) helped me use my '.beID' device with our Belgian tax-on-web site on Ubuntu 11.10. It didn't come up in Google right away, so I guessed it needed some additional linking.
+[This post](http://forum.ubuntu-nl.org/tips-trucs/opgelost-hoe-belgische-on-lline-belastingaangifte-met-ubuntu-12-04-lts-64/) helped me use my '.beID' device with our Belgian tax-on-web site on Ubuntu 11.10\. It didn't come up in Google right away, so I guessed it needed some additional linking.

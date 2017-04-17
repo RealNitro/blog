@@ -13,21 +13,13 @@ When it was time to replace our old LAN-only Linksys router, I ordered a WRT54G,
 
 But, no harm done, I could just run the default firmware, right? Unfortunately that default firmware, well, sucks. It really, really sucks. Some issues I had:
 
+* Wifi locks up on OSX when using it for max. 30 minutes. Pulling the plug is the only solution.
 
+* About once a day, when under 'heavy use' (i.e.: me and my brother surfing the web), all data traffic stops. Again, only pulling the plug solves the problem.
 
-	
-  * Wifi locks up on OSX when using it for max. 30 minutes. Pulling the plug is the only solution.
+* Sometimes my brother could keep on working, but there is just no way my laptop could connect. Be it Wifi or LAN, it just wouldn't work. Solution? You guessed it: pulling that plug again.
 
-	
-  * About once a day, when under 'heavy use' (i.e.: me and my brother surfing the web), all data traffic stops. Again, only pulling the plug solves the problem.
-
-	
-  * Sometimes my brother could keep on working, but there is just no way my laptop could connect. Be it Wifi or LAN, it just wouldn't work. Solution? You guessed it: pulling that plug again.
-
-	
-  * Getting my Wii to talk to my router was a pain in the *ss. I got it to work in the end, thanks to Google and some people with the same issue (and router).
-
-
+* Getting my Wii to talk to my router was a pain in the *ss. I got it to work in the end, thanks to Google and some people with the same issue (and router).
 
 But, while searching for a solution for my Wii connection problem, I came across a forum post that advised switching to [dd-wrt](http://www.dd-wrt.com/) micro. [dd-wrt](http://www.dd-wrt.com/) micro is a special version of [dd-wrt](http://www.dd-wrt.com/) that is small enough to be used with WRT54G v5 models. There was just one drawback: I could brick the router (=turn the router useless) when something went wrong. So I descided to keep on pulling the router's plug once or twice (or more) a day.
 
