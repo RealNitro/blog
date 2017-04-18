@@ -24,6 +24,7 @@ github_username: RealNitro
 # Build settings
 markdown: kramdown
 #theme: jekyll-theme-slate
+permalink: pretty
 gems:
   - jekyll-feed
 exclude:
