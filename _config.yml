@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
     Just another developer's blog...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "blog.realnitro.be" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  RealNitro
+github_username: RealNitro
 
 # Build settings
 markdown: kramdown
