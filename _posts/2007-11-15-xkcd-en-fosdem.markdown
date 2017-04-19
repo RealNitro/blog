@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/11/15/xkcd-en-fosdem/
 slug: xkcd-en-fosdem
 title: xkcd en FOSDEM
+tags: Nederlands Linux Fun
 wordpress_id: 40
 ---
 

@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2010/12/20/format-json-in-vim-using-pythons-jsontool-module/
 slug: format-json-in-vim-using-pythons-jsontool-module
 title: Format JSON in vim using Python’s json.tool module
+tags: Life
 wordpress_id: 56
 ---
 

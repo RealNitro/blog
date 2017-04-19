@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2006/10/21/wvs-openingsvergadering/
 slug: wvs-openingsvergadering
 title: WVS openingsvergadering
+tags: Linux
 wordpress_id: 26
 ---
 

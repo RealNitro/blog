@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/07/19/finally-an-index-page-for-www.realnitro.be/
 slug: finally-an-index-page-for-www.realnitro.be
 title: Finally an index page for www.realnitro.be
+tags: Coding Life Webdesign
 wordpress_id: 6
 ---
 

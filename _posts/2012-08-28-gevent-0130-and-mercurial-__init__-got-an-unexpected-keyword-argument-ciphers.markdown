@@ -7,6 +7,7 @@ link: http://blog.realnitro.be/2012/08/28/gevent-0130-and-mercurial-__init__-got
 slug: gevent-0130-and-mercurial-__init__-got-an-unexpected-keyword-argument-ciphers
 title: 'Gevent 0.13.0 and mercurial: __init__() got an unexpected keyword argument
   ‘ciphers’'
+tags: Python Coding
 wordpress_id: 60
 ---
 

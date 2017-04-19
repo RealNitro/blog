@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/03/01/fosdem-2007/
 slug: fosdem-2007
 title: FOSDEM 2007
+tags: English Linux
 wordpress_id: 30
 ---
 

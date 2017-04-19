@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/03/18/mabber.py/
 slug: mabber.py
 title: Mabber.py
+tags: Coding
 wordpress_id: 18
 ---
 

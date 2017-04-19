@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2010/03/07/will-be-reviewing-grok-10-web-development/
 slug: will-be-reviewing-grok-10-web-development
 title: Will be reviewing “Grok 1.0 Web Development”
+tags: Python Software Life
 wordpress_id: 53
 ---
 

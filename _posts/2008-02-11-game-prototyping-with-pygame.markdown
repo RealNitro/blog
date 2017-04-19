@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2008/02/11/game-prototyping-with-pygame/
 slug: game-prototyping-with-pygame
 title: Game prototyping with pygame
+tags: Pygame Games Python Software English Coding
 wordpress_id: 45
 ---
 

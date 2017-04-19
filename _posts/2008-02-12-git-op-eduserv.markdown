@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2008/02/12/git-op-eduserv/
 slug: git-op-eduserv
 title: Git op eduserv
+tags: Git Software Nederlands Coding
 wordpress_id: 46
 ---
 

@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/12/07/nintendo-rant/
 slug: nintendo-rant
 title: Nintendo Rant
+tags: Nederland Rant
 wordpress_id: 43
 ---
 

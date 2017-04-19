@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2010/02/20/using-the-mercurial-mq-extension/
 slug: using-the-mercurial-mq-extension
 title: Using the mercurial mq extension
+tags: mercurial Python
 wordpress_id: 51
 ---
 

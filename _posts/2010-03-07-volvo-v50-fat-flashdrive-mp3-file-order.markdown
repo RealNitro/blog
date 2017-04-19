@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2010/03/07/volvo-v50-fat-flashdrive-mp3-file-order/
 slug: volvo-v50-fat-flashdrive-mp3-file-order
 title: Volvo V50 + FAT flashdrive mp3 file order
+tags: Life
 wordpress_id: 54
 ---
 

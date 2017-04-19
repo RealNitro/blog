@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/02/10/finished/
 slug: finished
 title: Finished!
+tags: Life Fun RTCW-ET Gaming
 wordpress_id: 10
 ---
 

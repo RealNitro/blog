@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/01/30/more-exams-no-more-cold-linux-gaming/
 slug: more-exams-no-more-cold-linux-gaming
 title: More exams, no more cold, Linux Gaming
+tags: "Life CUBE Gaming"
 wordpress_id: 8
 ---
 

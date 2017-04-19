@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2006/07/18/fuse-and-fcos/
 slug: fuse-and-fcos
 title: Fuse and FCO’s
+tags: Coding
 wordpress_id: 24
 ---
 

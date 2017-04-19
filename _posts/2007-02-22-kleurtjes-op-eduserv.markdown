@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/02/22/kleurtjes-op-eduserv/
 slug: kleurtjes-op-eduserv
 title: Kleurtjes op eduserv
+tags: Nederlands Coding Linux
 wordpress_id: 29
 ---
 

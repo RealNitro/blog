@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/04/26/python-django-les/
 slug: python-django-les
 title: Python & Django les
+tags: Life
 wordpress_id: 33
 ---
 

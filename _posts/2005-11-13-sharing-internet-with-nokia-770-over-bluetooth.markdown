@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/11/13/sharing-internet-with-nokia-770-over-bluetooth/
 slug: sharing-internet-with-nokia-770-over-bluetooth
 title: Sharing internet with Nokia 770 over bluetooth
+tags: Coding Linux
 wordpress_id: 20
 ---
 

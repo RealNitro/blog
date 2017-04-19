@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/11/15/mythtv-channels-and-echos/
 slug: mythtv-channels-and-echos
 title: 'Mythtv: channels and echo’s'
+tags: Linux English
 wordpress_id: 39
 ---
 

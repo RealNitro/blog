@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/05/30/sauerbraten-some-news/
 slug: sauerbraten-some-news
 title: Sauerbraten, some news
+tags: Life CUBE Gaming
 wordpress_id: 4
 ---
 

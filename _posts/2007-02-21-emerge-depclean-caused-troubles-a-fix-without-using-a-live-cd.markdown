@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/02/21/emerge-depclean-caused-troubles-a-fix-without-using-a-live-cd/
 slug: emerge-depclean-caused-troubles-a-fix-without-using-a-live-cd
 title: 'Emerge depclean caused troubles: a fix without using a live-cd'
+tags: Linux
 wordpress_id: 27
 ---
 

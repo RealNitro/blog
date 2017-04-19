@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/06/05/first-exam-nokia-770/
 slug: first-exam-nokia-770
 title: First exam, Nokia 770
+tags: Linux Life
 wordpress_id: 12
 ---
 

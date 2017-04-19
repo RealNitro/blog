@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/10/30/latex-les-2007/
 slug: latex-les-2007
 title: LaTeX les 2007
+tags: Life
 wordpress_id: 37
 ---
 

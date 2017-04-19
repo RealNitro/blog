@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2006/04/25/tired-of-cleaning-up-the-spam-here/
 slug: tired-of-cleaning-up-the-spam-here
 title: Tired of cleaning up the spam here
+tags: Life
 wordpress_id: 13
 ---
 

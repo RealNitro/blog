@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2008/03/03/deredactiebe-niet-bereikbaar-vanaf-ugentbe/
 slug: deredactiebe-niet-bereikbaar-vanaf-ugentbe
 title: deredactie.be niet bereikbaar vanaf UGent.be?
+tags: Life
 wordpress_id: 47
 ---
 

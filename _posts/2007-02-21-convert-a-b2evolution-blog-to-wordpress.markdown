@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/02/21/convert-a-b2evolution-blog-to-wordpress/
 slug: convert-a-b2evolution-blog-to-wordpress
 title: Convert a b2evolution blog to WordPress
+tags: Life
 wordpress_id: 28
 ---
 

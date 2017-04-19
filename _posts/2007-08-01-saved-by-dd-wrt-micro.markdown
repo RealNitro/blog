@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/08/01/saved-by-dd-wrt-micro/
 slug: saved-by-dd-wrt-micro
 title: Saved by dd-wrt micro
+tags: English Linux
 wordpress_id: 35
 ---
 

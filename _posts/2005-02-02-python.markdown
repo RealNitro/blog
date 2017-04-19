@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/02/02/python/
 slug: python
 title: Python
+tags: Linux Life
 wordpress_id: 9
 ---
 

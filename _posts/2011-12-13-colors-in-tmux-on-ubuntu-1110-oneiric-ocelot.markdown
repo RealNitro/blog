@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2011/12/13/colors-in-tmux-on-ubuntu-1110-oneiric-ocelot/
 slug: colors-in-tmux-on-ubuntu-1110-oneiric-ocelot
 title: Colors in tmux on Ubuntu 11.10 Oneiric Ocelot
+tags: Life
 wordpress_id: 58
 ---
 

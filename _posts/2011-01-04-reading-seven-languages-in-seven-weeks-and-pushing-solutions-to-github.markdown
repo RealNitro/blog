@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2011/01/04/reading-seven-languages-in-seven-weeks-and-pushing-solutions-to-github/
 slug: reading-seven-languages-in-seven-weeks-and-pushing-solutions-to-github
 title: Reading Seven Languages in Seven Weeks and pushing solutions to GitHub
+tags: Life
 wordpress_id: 57
 ---
 

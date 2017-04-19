@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/11/12/mythbuntu-troubles-and-fixes/
 slug: mythbuntu-troubles-and-fixes
 title: Mythbuntu troubles and fixes
+tags: English Linux
 wordpress_id: 38
 ---
 

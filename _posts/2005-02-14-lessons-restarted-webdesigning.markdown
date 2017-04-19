@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/02/14/lessons-restarted-webdesigning/
 slug: lessons-restarted-webdesigning
 title: Lessons restarted, webdesigning
+tags: Life Fun Webdesign
 wordpress_id: 11
 ---
 

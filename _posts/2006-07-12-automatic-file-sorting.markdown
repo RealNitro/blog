@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2006/07/12/automatic-file-sorting/
 slug: automatic-file-sorting
 title: Automatic file-sorting
+tags: Coding
 wordpress_id: 23
 ---
 

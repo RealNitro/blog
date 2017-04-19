@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/03/01/php-gotcha-mail-fosdem/
 slug: php-gotcha-mail-fosdem
 title: Php gotcha, mail, FOSDEM
+tags: Coding Linux Webdesign
 wordpress_id: 17
 ---
 

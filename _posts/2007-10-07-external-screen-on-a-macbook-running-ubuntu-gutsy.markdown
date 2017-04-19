@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/10/07/external-screen-on-a-macbook-running-ubuntu-gutsy/
 slug: external-screen-on-a-macbook-running-ubuntu-gutsy
 title: External screen on a Macbook running Ubuntu Gutsy
+tags: English Linux
 wordpress_id: 36
 ---
 

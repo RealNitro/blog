@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/11/19/remote-x-on-nokia-770-screenshots/
 slug: remote-x-on-nokia-770-screenshots
 title: 'Remote X on Nokia 770: schreenshots'
+tags: Coding
 wordpress_id: 22
 ---
 

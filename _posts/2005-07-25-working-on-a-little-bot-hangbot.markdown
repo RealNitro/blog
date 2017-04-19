@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/07/25/working-on-a-little-bot-hangbot/
 slug: working-on-a-little-bot-hangbot
 title: 'Working on a little bot: HangBot'
+tags: Coding
 wordpress_id: 19
 ---
 

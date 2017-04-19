@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/11/24/cleaning-a-white-macbook/
 slug: cleaning-a-white-macbook
 title: Cleaning a white Macbook
+tags: Life English
 wordpress_id: 41
 ---
 

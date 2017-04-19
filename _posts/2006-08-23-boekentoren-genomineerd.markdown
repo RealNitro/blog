@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2006/08/23/boekentoren-genomineerd/
 slug: boekentoren-genomineerd
 title: Boekentoren genomineerd voor monumentenstrijd
+tags: Life
 wordpress_id: 14
 ---
 

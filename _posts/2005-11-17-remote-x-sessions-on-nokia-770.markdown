@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/11/17/remote-x-sessions-on-nokia-770/
 slug: remote-x-sessions-on-nokia-770
 title: Remote X sessions on Nokia 770
+tags: Coding Linux
 wordpress_id: 21
 ---
 

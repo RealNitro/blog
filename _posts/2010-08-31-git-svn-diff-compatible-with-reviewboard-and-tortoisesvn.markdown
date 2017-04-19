@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2010/08/31/git-svn-diff-compatible-with-reviewboard-and-tortoisesvn/
 slug: git-svn-diff-compatible-with-reviewboard-and-tortoisesvn
 title: Git SVN diff compatible with reviewboard (and TortoiseSVN?)
+tags: Life
 wordpress_id: 55
 ---
 

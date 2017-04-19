@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2005/02/03/cube-live-cd-tc-e-update/
 slug: cube-live-cd-tc-e-update
 title: Cube live-cd, TC:E update
+tags: RTCW-ET CUBE Gaming
 wordpress_id: 3
 ---
 

@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2008/05/05/vanaf-september-q-layer/
 slug: vanaf-september-q-layer
 title: Vanaf september @ Q-layer
+tags: Nederlands Life
 wordpress_id: 49
 ---
 

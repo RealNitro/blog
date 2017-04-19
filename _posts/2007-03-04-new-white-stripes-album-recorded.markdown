@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/03/04/new-white-stripes-album-recorded/
 slug: new-white-stripes-album-recorded
 title: New White Stripes album recorded!
+tags: English
 wordpress_id: 31
 ---
 

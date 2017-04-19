@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2008/10/12/announcing-burgiebot-twisted-irc-bot/
 slug: announcing-burgiebot-twisted-irc-bot
 title: 'Announcing: BurgieBot twisted IRC bot'
+tags: Life
 wordpress_id: 50
 ---
 

@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/11/28/ms-seadragon-photosynth/
 slug: ms-seadragon-photosynth
 title: MS Seadragon & Photosynth
+tags: Software Microsoft English
 wordpress_id: 42
 ---
 

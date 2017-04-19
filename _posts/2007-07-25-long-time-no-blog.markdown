@@ -6,6 +6,7 @@ layout: post
 link: http://blog.realnitro.be/2007/07/25/long-time-no-blog/
 slug: long-time-no-blog
 title: Long time no blog
+tags: English Linux Life
 wordpress_id: 34
 ---
 
